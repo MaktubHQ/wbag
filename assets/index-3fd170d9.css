@@ -2710,6 +2710,13 @@ textarea.form-control-lg {
     border-radius: .3rem
 }
 
+.token-item{
+    margin-bottom: -74px;
+}
+#hero-picture{
+    width: 400px;
+}
+
 .input-group-sm>.btn,.input-group-sm>.form-control,.input-group-sm>.form-select,.input-group-sm>.input-group-text {
     padding: .25rem .5rem;
     font-size: .875rem;
@@ -2757,7 +2764,22 @@ textarea.form-control-lg {
     background-color: #198754e6;
     border-radius: .25rem
 }
+#hero-image{
+    width: 35rem;
+}
+.banner-area{
+    background-color: #84BCD1;
+}
+#tax-video{
+    background-color: #84BCD1;
+}
+#sticky-header{
+    background-color: #84BCD1;
+}
+.copyright-wrap{
+        background-color: #84BCD1;
 
+}
 .is-valid~.valid-feedback,.is-valid~.valid-tooltip,.was-validated :valid~.valid-feedback,.was-validated :valid~.valid-tooltip {
     display: block
 }
@@ -2779,6 +2801,9 @@ textarea.form-control-lg {
 .was-validated textarea.form-control:valid,textarea.form-control.is-valid {
     padding-right: calc(1.5em + .75rem);
     background-position: top calc(.375em + .1875rem) right calc(.375em + .1875rem)
+}
+#danny-section{
+    margin-bottom: -74px;
 }
 
 .form-select.is-valid,.was-validated .form-select:valid {
@@ -15808,11 +15833,11 @@ img.mfp-img {
 }
 
 .pb-120 {
-    padding-bottom: 120px
+    padding-bottom: 52px
 }
 
 .pb-125 {
-    padding-bottom: 125px
+    padding-bottom: 3px
 }
 
 .pb-130 {
@@ -16200,7 +16225,6 @@ body {
     font-size: 20px;
     color: #fff;
     font-style: normal;
-    background: #0019f5
 }
 
 body.no-scroll {
@@ -16212,8 +16236,8 @@ body.no-scroll {
     top: 0;
     left: 0;
     width: 100%;
-    height: 100%;
-    background: #0019f5;
+    height: 100%;    
+    background-color: #84BCD1 !important;
     z-index: 9999;
     display: flex;
     align-items: center;
@@ -16466,6 +16490,7 @@ label {
     border: 3px solid;
     border-radius: 14px;
     background-image: url(/assets/button-bg-09f40c8d.svg);
+    background-color: #28ff0d;
     padding: 12px 32px;
     box-shadow: 0 6px 0 -2px #180213;
     color: #fff;
@@ -17346,7 +17371,7 @@ label {
     outline-color: #f8450b;
     outline-offset: 0px;
     outline-style: none;
-    margin-bottom: 25px
+    margin-bottom: 0;
 }
 
 .banner-content .title {
@@ -17385,7 +17410,7 @@ label {
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
-    margin: 10px 0 30px
+    margin: 0 0 30px
 }
 
 .banner-btn-wrap .btn {
@@ -17435,14 +17460,14 @@ label {
 }
 
 .about-bg {
-    background-image: url(/assets/poster-dc1f7a9d.png);
+    background-color: #84BCD1;
     background-position: center;
     background-size: cover;
     padding: 155px 0 120px
 }
 
 .mad-bg {
-    background-image: url(/assets/poster-dc1f7a9d.png);
+    background-color: #84BCD1;
     background-position: center;
     background-size: cover;
     padding: 155px 0 120px
@@ -17461,9 +17486,10 @@ label {
 
 .header-img-wrap img {
     object-fit: contain;
-    max-height: 400px;
-    width: 100%;
-    z-index: -1
+    max-height: 600px !important;
+    width: 1600px !important;
+    z-index: -1;
+    margin-bottom: -90px;
 }
 
 .about-shape {
@@ -17476,7 +17502,7 @@ label {
 .about-title>.title {
     font-size: 45px;
     line-height: 1;
-    margin-bottom: 16px;
+    margin-bottom: -55px;
     color: #1a131d
 }
 
@@ -17484,7 +17510,11 @@ label {
     color: #333;
     font-size: 40px;
     line-height: 1;
-    margin-bottom: 26px
+    margin-bottom: 26px;
+    
+}
+.about-content > p {
+    font-family: 'Poppins', sans-serif;
 }
 
 .pepeki-card .about-content {
@@ -17941,7 +17971,8 @@ h6.price span {
     border-bottom: 1px solid #c6c7c8;
     line-height: 1.3;
     padding: 15px 30px;
-    height: max-content
+    height: max-content;
+    font-family: "Poppins", sans-serif;
 }
 
 .token-item .token-list li span {
@@ -18480,6 +18511,12 @@ h6.price span {
     max-width: 90%;
     margin: 0 auto 40px
 }
+.paragraph{
+    font-family: 'Poppins', sans-serif;
+}
+.btn{
+    font-family: 'Poppins', sans-serif;
+}
 
 .dextools-btn .btn {
     font-family: grinddemolished;
@@ -18884,7 +18921,7 @@ h6.price span {
 
 .copyright-wrap .email p {
     font-size: 20px;
-    color: #000
+    color: #fff
 }
 
 .timeline-wrap {
@@ -20378,7 +20415,9 @@ footer,header,main {
     }
 
     .banner-content .sub-title {
-        font-size: 28px
+        font-size: 28px;
+        margin-left: 40px;
+        margin-bottom: -80px;
     }
 
     .custom-container,.footer-container,.container {
@@ -20985,7 +21024,7 @@ footer,header,main {
 
     .about-title>.title {
         font-size: 30px;
-        margin-bottom: 25px
+        margin-bottom: -25px
     }
 
     .about-content>.title {
@@ -21136,7 +21175,10 @@ footer,header,main {
 
     .banner-content .sub-title {
         font-size: 21px;
-        text-shadow: 0px 3px 0px rgb(0 0 0 / 40%)
+        text-shadow: 0px 3px 0px rgb(0 0 0 / 40%);
+        margin-left: 0px;
+        margin-top: 90px;
+        margin-bottom: 0px;
     }
 
     .about-content .price {
@@ -21150,7 +21192,8 @@ footer,header,main {
     }
 
     .about-title>.title {
-        font-size: 40px
+        font-size: 40px;
+        margin-bottom: -25px;
     }
 
     .about-content>.title {
